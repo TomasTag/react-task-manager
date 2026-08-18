@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Task Manager</h1>
+      <h1>Example task manager 1</h1>
     </div>
   )
 }
