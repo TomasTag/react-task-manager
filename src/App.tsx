@@ -2,6 +2,7 @@ import TaskHeader from './components/TaskHeader'
 import TaskList from './components/TaskList'
 import type { Task } from './types/task'
 
+import './components/app.css'
 
 function App() {
 
@@ -30,10 +31,10 @@ function App() {
   ]
 
   return (
-    <div>
+    <main className='app'>
       <TaskHeader />
       <TaskList tasks={tasks} />
-    </div>
+    </main>
   )
 }
 

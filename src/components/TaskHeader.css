@@ -1,0 +1,21 @@
+.task-header {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #111827;
+}
+
+.task-header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #111827;
+}
+
+.task-header p {
+    margin: 12px 0 0;
+    font-size: 15px;
+    color: #6b7280;
+}
