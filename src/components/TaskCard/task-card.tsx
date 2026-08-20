@@ -1,9 +1,9 @@
-import type { Task } from '../types/task'
-import './TaskCard.css'
+import type { Task } from '../../types/task'
+import './task-card-styled.css'
 
-function TaskCard({ task }: { task: Task }){ //task: Task te dice de que tipo tiene que ser la variable que
-    return (                                 //cargamos desde props
-        <article className='task-card'>
+function TaskCard({ task }: { task: Task }){ //task: Task sepecifies the type of the props
+    return (                                 
+        <article className='task-card'>     
             <div className='task-card-header'>
                 <h2>{task.title}</h2>
                 <span className={`task-status ${task.status}`} >

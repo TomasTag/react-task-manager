@@ -1,0 +1,19 @@
+.task-header {
+    margin-bottom: 40px;
+}
+
+.task-header h1 {
+    margin: 0;
+    font-size: var(--font-size-title);
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--color-text-primary);
+    font-family: var(--font-family-primary);
+}
+
+.task-header p {
+    margin: 12px 0 0;
+    font-size: var(--font-size-medium);
+    color: var(--color-text-secondary);
+    font-family: var(--font-family-primary);
+}

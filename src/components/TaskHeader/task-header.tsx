@@ -1,4 +1,4 @@
-import './TaskHeader.css'
+import './task-header-styled.css'
 
 function TaskHeader() {
   return (

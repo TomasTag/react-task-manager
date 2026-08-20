@@ -1,35 +1,10 @@
-import TaskHeader from './components/TaskHeader'
-import TaskList from './components/TaskList'
-import type { Task } from './types/task'
+import TaskHeader from './components/TaskHeader/task-header'
+import TaskList from './components/TaskList/task-list'
+import { tasks } from './mockup/task-mockup-list'
 
-import './components/app.css'
+import './app-styled.css'
 
 function App() {
-
-  const tasks: Task[] = [
-    {
-      id: '1',
-      title: 'Create task manager',
-      description: 'Buil the initial Task Manager Interface',
-      status: 'in_progress',
-      priority:'high',
-    },
-    {
-      id: '2',
-      title: 'Create TaskCard',
-      description: 'Build the component for individual tasks',
-      status: 'todo',
-      priority: 'medium',
-    },
-    {
-      id: '3',
-      title: 'Review project',
-      description: 'Review the Task Manager implementation',
-      status: 'done',
-      priority: 'low',
-    },
-  ]
-
   return (
     <main className='app'>
       <TaskHeader />
