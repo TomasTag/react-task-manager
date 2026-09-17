@@ -1,8 +1,15 @@
+import TaskHeader from './components/TaskHeader/task-header'
+import TaskList from './components/TaskList/task-list'
+import { tasks } from './mockup/task-mockup-list'
+
+import './app-styled.css'
+
 function App() {
   return (
-    <div>
-      <h1>Example task manager 1</h1>
-    </div>
+    <main className='app'>
+      <TaskHeader />
+      <TaskList tasks={tasks} />
+    </main>
   )
 }
 
